@@ -27271,6 +27271,7 @@ async function run() {
         // Debug logs are only output if the `ACTIONS_STEP_DEBUG` secret is true
         coreExports.debug(`Waiting ${ms} milliseconds ...`);
         coreExports.info('hello, this is another info level log!');
+        coreExports.info('hello again, this is yet another info level log!');
         // Log the current timestamp, wait, then log the new timestamp
         coreExports.debug(new Date().toTimeString());
         await wait(parseInt(ms, 10));
