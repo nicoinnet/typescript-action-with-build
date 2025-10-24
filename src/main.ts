@@ -14,6 +14,7 @@ export async function run(): Promise<void> {
     core.debug(`Waiting ${ms} milliseconds ...`)
 
     core.info('hello, this is another info level log!')
+    core.info('hello again, this is yet another info level log!')
 
     // Log the current timestamp, wait, then log the new timestamp
     core.debug(new Date().toTimeString())
